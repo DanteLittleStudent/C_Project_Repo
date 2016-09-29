@@ -1,0 +1,27 @@
+/*
+ ============================================================================
+ Name        : Command_Line.c
+ Author      : Cui
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int argc = 6;
+
+int main(int argc, char *argv[]) {
+	printf("start");
+	int i;
+	printf(argc);
+	for(i = 1; i<argc; i++){
+//		printf("%s%s", argv[i], (i<argc-1)?"1":"");
+		printf("1");
+	}
+	printf("\n");
+	return 0;
+}
